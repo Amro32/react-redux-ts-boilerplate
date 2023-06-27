@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
-import { Action1 } from "./store/actions/exampleActions";
-import { AppDispatch } from "./store/store";
+import { Action1 } from "../store/actions/exampleActions";
+import { AppDispatch } from "../store/store";
 
 function Home() {
   const dispatch: AppDispatch = useDispatch();
